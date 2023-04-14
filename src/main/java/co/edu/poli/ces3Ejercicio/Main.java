@@ -21,7 +21,20 @@ public class Main {
 
             List<Producto> listaProductos = mapper.readValue(inputStream,typeReference);
 
-            System.out.println("coool!!");
+            System.out.println( "OK");
+
+            for (Producto x:  listaProductos){
+                System.out.println("******************************************************************************");
+                System.out.println("Producto con id de producto: " + x.getIdProducto());
+                System.out.println("Id de categoria: " + x.getIdCategoria());
+                System.out.println("Código: " + x.getCodigoProd());
+                System.out.println("Nombre: " + x.getNombreProd());
+                System.out.println("Descripción: " + x.getDescripcionProd());
+                System.out.println("");
+                System.out.println("******************************************************************************");
+                System.out.println("");
+            }
+            System.out.println("GRACIAS");
             //System.out.println(System.getProperty("user.dir"));
         }
         catch (IOException e){

@@ -11,12 +11,23 @@
         <nombreProd>Computador de escritorio</nombreProd>
         <descripcionProd>Marca HP, procesador Intel i7</descripcionProd>
     </producto>
-
-    <producto idProducto ="01" >
-        <idCategoria>03</idCategoria>
-        <codigoProd>SCFD8658</codigoProd>
-        <nombreProd>Computador de escritorio</nombreProd>
-        <descripcionProd>Marca HP, procesador Intel i7</descripcionProd>
+    <producto idProducto ="02" >
+        <idCategoria>01</idCategoria>
+        <codigoProd>KJHSAD8W658</codigoProd>
+        <nombreProd>Teclado para computador</nombreProd>
+        <descripcionProd>Marca Lenovo, Garantia 2 años</descripcionProd>
+    </producto>
+    <producto idProducto ="03" >
+        <idCategoria>02</idCategoria>
+        <codigoProd>LSS98247532</codigoProd>
+        <nombreProd>Consola de videojuego</nombreProd>
+        <descripcionProd>Playstacion 4, con juegos gratis</descripcionProd>
+    </producto>
+    <producto idProducto ="04" >
+        <idCategoria>01</idCategoria>
+        <codigoProd>SFA3242349</codigoProd>
+        <nombreProd>Computador portatil</nombreProd>
+        <descripcionProd>Marca Dell, procesador Intel i8</descripcionProd>
     </producto>
 
 </productos>
