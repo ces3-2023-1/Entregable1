@@ -1,0 +1,9 @@
+<!ELEMENT productos (producto*)>
+<!ELEMENT producto (idCategoria+,codigoProd+,nombreProd+,descripcionProd+)>
+<!ATTLIST producto idProducto #IMPLIED>
+<!ELEMENT idCategoria (#PCDATA)>
+<!ELEMENT codigoProd (#PCDATA)>
+<!ELEMENT nombreProd (#PCDATA)>
+<!ELEMENT descripcionProd (#PCDATA)>
+
+

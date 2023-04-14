@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone ="yes" ?>
+
+<!DOCTYPE productos SYSTEM "Producto.dtd">
+
+<productos>
+    <!-- Este es un comentario
+    -->
+    <producto idProducto ="01" >
+        <idCategoria>03</idCategoria>
+        <codigoProd>SCFD8658</codigoProd>
+        <nombreProd>Computador de escritorio</nombreProd>
+        <descripcionProd>Marca HP, procesador Intel i7</descripcionProd>
+    </producto>
+
+    <producto idProducto ="01" >
+        <idCategoria>03</idCategoria>
+        <codigoProd>SCFD8658</codigoProd>
+        <nombreProd>Computador de escritorio</nombreProd>
+        <descripcionProd>Marca HP, procesador Intel i7</descripcionProd>
+    </producto>
+
+</productos>
